@@ -11,8 +11,8 @@
     "version": "1.0.40",
     "require": {
         "illuminate/support": "5.*",
-        "laravelcollective/html": "^5.2|^5.1",
-        "illuminate/container": "^5.2|^5.1",
+        "laravelcollective/html": "~5.*",
+        "illuminate/container": "~5.*",
         "yajra/laravel-datatables-oracle": "~6.0",
         "creativeorange/gravatar": "^1.0",
         "doctrine/dbal": "~2.3",
@@ -35,5 +35,12 @@
         },
         "files": [
         ]
+    },
+    "extra": {
+	    "laravel": {
+		    "providers": [
+			    "Dwij\\Laraadmin\\LAProvider"
+		    ]
+	    }
     }
 }
