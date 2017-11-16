@@ -504,6 +504,9 @@ class LAHelper
         } else if(starts_with($var, "5.4")) {
             return 5.4;
         }
+        } else if(starts_with($var, "5.5")) {
+            return 5.5;
+        }
         else if(substr_count($var, ".") == 3) {
             $var = substr($var, 0, strrpos($var, "."));
             return $var . "-str";
