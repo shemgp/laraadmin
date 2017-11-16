@@ -503,7 +503,6 @@ class LAHelper
             return 5.3;
         } else if(starts_with($var, "5.4")) {
             return 5.4;
-        }
         } else if(starts_with($var, "5.5")) {
             return 5.5;
         }
