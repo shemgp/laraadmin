@@ -11,8 +11,8 @@
     "version": "1.0.40",
     "require": {
         "illuminate/support": "5.*",
-        "laravelcollective/html": "~5.*",
-        "illuminate/container": "~5.*",
+        "laravelcollective/html": "~5.5",
+        "illuminate/container": "~5.5",
         "yajra/laravel-datatables-oracle": "~6.0",
         "creativeorange/gravatar": "^1.0",
         "doctrine/dbal": "~2.3",
